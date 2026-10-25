@@ -1,0 +1,12 @@
+.idea/
+.vs/
+.vscode/
+vendor/
+
+.DS_Store
+.env
+*.crt
+*.key
+*.log
+*.pem
+desktop.ini

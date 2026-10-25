@@ -1,0 +1,13 @@
+{
+    "Sign in with :name": "Entrar com :name",
+    "Could not sign in": "Não foi possível entrar",
+    "Try again": "Tentar novamente",
+    "Go to home": "Ir para o início",
+    "Sign in with :name was cancelled.": "A entrada com :name foi cancelada.",
+    "Your sign in expired. Please try again.": "Sua entrada expirou. Tente novamente.",
+    ":name could not be reached. Please try again later.": "Não foi possível falar com :name. Tente novamente mais tarde.",
+    "Verify the email address of your :name account, then try again.": "Confirme o email da sua conta :name e tente novamente.",
+    "This email address belongs to another :name account.": "Este email pertence a outra conta :name.",
+    "This email address already has an account here.": "Este email já tem uma conta aqui.",
+    "Registration is disabled.": "O cadastro está desativado."
+}
