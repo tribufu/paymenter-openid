@@ -4,6 +4,17 @@ Sign in to [Paymenter](https://paymenter.org) with any OpenID Connect provider, 
 Auth0, or Google. It adds a button to the login page and uses the authorization code flow with PKCE, reading the
 endpoints from the discovery document of the provider.
 
+[![MIT License][mit-badge]][mit-url]
+[![Discord Chat][discord-badge]][discord-url]
+
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[mit-url]: https://github.com/tribufu/paymenter-openid/blob/main/LICENSE.txt
+[discord-badge]: https://img.shields.io/discord/276504514616623104.svg?logo=discord&style=flat-square
+[discord-url]: https://www.tribufu.com/discord
+
+[Website](https://www.tribufu.com) |
+[Discord](https://www.tribufu.com/discord)
+
 - Each Paymenter account is bound to the issuer and subject of a user of the provider, in the `ext_openid_identities`
   table, so a change of email in the provider keeps the account.
 - A first sign in needs a verified email (`email_verified`). It creates the Paymenter account, unless registration is
@@ -65,4 +76,6 @@ The provider must allow the address of Paymenter as a post logout redirect URI.
 
 ## License
 
-[MIT](LICENSE.txt)
+This project is licensed under the [MIT License].
+
+[MIT License]: https://github.com/tribufu/paymenter-openid/blob/main/LICENSE.txt
