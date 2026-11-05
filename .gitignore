@@ -10,3 +10,5 @@ vendor/
 *.log
 *.pem
 desktop.ini
+
+.codegraph/
